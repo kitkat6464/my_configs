@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+#-------------------------------------------------------------------------
+#  Catrina's AUR Packages Installer
+#-------------------------------------------------------------------------
+
+echo
+echo "Installing Aur Packages. Skull Emoji"
+echo
+
+PKGS=(
+        'qt6ct-kde'
+        'bazaar'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    paru -S "$PKG"
+done
+
+echo
+echo "Done!"
+echo
