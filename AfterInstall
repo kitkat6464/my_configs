@@ -1,0 +1,130 @@
+#!/usr/bin/env bash
+
+#-------------------------------------------------------------------------
+#  Catrina's Additional Setup After Installing Using DMS Installer
+#-------------------------------------------------------------------------
+
+# To Do:
+# Double Check Packages and Add More If Needed
+# Add Secondary Drive Mount
+# Make This File Executable
+# Test On VM
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Refreshing Repo's"
+echo
+
+pacman -Syu --noconfirm
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Done!"
+echo
+
+echo
+echo "Add Missing Stuff For Niri"
+echo
+
+PKGS=(
+        'xdg-desktop-portal-gnome'
+        'cava'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    sudo pacman -S "$PKG" --noconfirm
+done
+
+echo
+echo "Done!"
+echo
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Install Core App's. GTK Core Cause Niri Loves It and I'm Lazy"
+echo
+
+PKGS=(
+        'nautilus'
+        'loupe'
+        'decibels'
+        'showtime'
+        'papers'
+        'gnome-text-editor'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    sudo pacman -S "$PKG" --noconfirm
+done
+
+echo
+echo "Done!"
+echo
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Install Theme Support"
+echo
+
+pacman -S --noconfirm \
+  adw-gtk-theme \
+  nwg-look
+
+PKGS=(
+        'adw-gtk-theme'
+        'nwg-look'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    sudo pacman -S "$PKG" --noconfirm
+done
+
+echo
+echo "Done!"
+echo
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Install Stuff From The AUR. Skull Emoji"
+echo
+
+PKGS=(
+        'qt6ct-kde'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    paru -S "$PKG"
+done
+
+echo
+echo "Done!"
+echo
+
+#-------------------------------------------------------------------------
+
+echo
+echo "Install Misc System App's"
+echo
+
+PKGS=(
+        'lact'
+        'flatpak'
+)
+
+for PKG in "${PKGS[@]}"; do
+    echo "INSTALLING: ${PKG}"
+    sudo pacman -S "$PKG" --noconfirm
+done
+
+echo
+echo "Done!"
+echo
