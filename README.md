@@ -19,6 +19,14 @@ dms greeter enable
 
 - Run After Install:
 
+
+
+Core: 
+
 curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall | sh
+
+Aur: 
+
+curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstallAur | sh
 
 -------------------------------------------------------------------------------------------------------
