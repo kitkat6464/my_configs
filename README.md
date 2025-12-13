@@ -19,6 +19,6 @@ dms greeter enable
 
 - Run After Install:
 
-curl -fsSL [https://install.danklinux.com](https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall) | sh
+curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall | sh
 
 -------------------------------------------------------------------------------------------------------
