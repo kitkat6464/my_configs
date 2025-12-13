@@ -8,15 +8,8 @@ echo
 echo "Installing Aur Packages. Skull Emoji"
 echo
 
-PKGS=(
-        'qt6ct-kde'
-        'bazaar'
-)
-
-for PKG in "${PKGS[@]}"; do
-    echo "INSTALLING: ${PKG}"
-    paru -S "$PKG"
-done
+paru -S qt6ct-kde
+paru -S bazaar
 
 echo
 echo "Done!"
