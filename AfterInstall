@@ -117,14 +117,21 @@ echo
 echo "Install Stuff From The AUR. Skull Emoji"
 echo
 
+cd "${HOME}"
+
+echo "CLONING: AURIC"
+git clone "https://github.com/kitkat6464/AURIC.git"
+
 PKGS=(
         'qt6ct-kde'
         'bazaar'
 )
 
+cd ${HOME}/AURIC
+chmod +x auric.sh
+
 for PKG in "${PKGS[@]}"; do
-    echo "INSTALLING: ${PKG}"
-    paru -S "$PKG"
+    ./auric.sh -i $PKG
 done
 
 echo
