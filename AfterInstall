@@ -15,7 +15,7 @@ echo
 echo "Refreshing Repo's"
 echo
 
-pacman -Syu --noconfirm
+sudo pacman -Syu --noconfirm
 
 #-------------------------------------------------------------------------
 
