@@ -8,8 +8,8 @@ echo
 echo "Installing Aur Packages. Skull Emoji"
 echo
 
-paru -S -y qt6ct-kde
-paru -S -y bazaar
+paru -S --noconfirm qt6ct-kde
+paru -S --noconfirm bazaar
 
 echo
 echo "Done!"
