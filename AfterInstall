@@ -30,6 +30,7 @@ echo
 
 PKGS=(
         'xdg-desktop-portal-gnome'
+        'wlr-randr'
         'cava'
 )
 
