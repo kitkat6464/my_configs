@@ -1,1 +1,30 @@
-*TO DO*
+Bioshock: scb -- %command%
+Black Myth: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Dark Picture's: scb -- %command%
+Fallout: scb -- %command%
+Ghost of: PROTON_FSR4_UPGRADE=1 scb -- %command%
+God of War: scb -- %command%
+GoW: Rag: SteamDeck=1 PROTON_FSR4_UPGRADE=1 scb -- %command%
+Half Life: scb -- %command%
+HL: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Horizon: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Left For Dead: scb -- %command%
+Metro: scb -- %command%
+Persona: scb -- %command%
+Portal: scb -- %command%
+Spiderman: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Stalker: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Witcher 1: scb -- %command%
+Witcher 2: eval $( echo "scb -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
+Witcher 3: scb -- %command% --launcher-skip
+Yakuza: scb -- %command%
+BG3: scb -- %command%
+Clair: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Cyberpunk: PROTON_FSR4_UPGRADE=1 scb -- %command% --launcher-skip
+DS: scb -- %command%
+Indies: scb -- %command%
+Dead/REPO/VRCHAT: scb -- %command%
+Rivals: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Rage Quit: scb -- %command%
+Halo: scb -- %command%
+Rachet: PROTON_FSR4_UPGRADE=1 scb -- %command%
