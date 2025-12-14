@@ -4,13 +4,6 @@
 #  Catrina's Additional Setup After Installing Using DMS Installer
 #-------------------------------------------------------------------------
 
-# To Do:
-# Double Check Packages and Add More If Needed
-# Make This File Executable
-# Test On VM
-
-#-------------------------------------------------------------------------
-
 echo
 echo "Refreshing Repo's"
 echo
