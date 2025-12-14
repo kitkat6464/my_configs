@@ -96,6 +96,7 @@ image/jxl=org.gnome.Loupe.desktop
 text/plain=org.gnome.TextEditor.desktop
 application/pdf=org.gnome.Papers.desktop
 inode/directory=org.gnome.Nautilus.desktop
+application/json=org.gnome.TextEditor.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -191,3 +192,4 @@ image/heic=org.gnome.Loupe.desktop;
 image/jxl=org.gnome.Loupe.desktop;
 text/plain=org.gnome.TextEditor.desktop;
 application/pdf=org.gnome.Papers.desktop;
+application/json=org.gnome.TextEditor.desktop;
