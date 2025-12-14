@@ -93,6 +93,9 @@ image/svg+xml-compressed=org.gnome.Loupe.desktop
 image/avif=org.gnome.Loupe.desktop
 image/heic=org.gnome.Loupe.desktop
 image/jxl=org.gnome.Loupe.desktop
+text/plain=org.gnome.TextEditor.desktop
+application/pdf=org.gnome.Papers.desktop
+inode/directory=org.gnome.Nautilus.desktop
 
 [Added Associations]
 x-scheme-handler/http=firefox.desktop;
@@ -186,3 +189,5 @@ image/svg+xml-compressed=org.gnome.Loupe.desktop;
 image/avif=org.gnome.Loupe.desktop;
 image/heic=org.gnome.Loupe.desktop;
 image/jxl=org.gnome.Loupe.desktop;
+text/plain=org.gnome.TextEditor.desktop;
+application/pdf=org.gnome.Papers.desktop;
