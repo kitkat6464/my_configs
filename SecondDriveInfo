@@ -1,3 +1,5 @@
+Create mnt mount folder: sudo mkdir /mnt/games
+
 Look for UUID: lsblk -f
 
 Add this to /etc/fstab
