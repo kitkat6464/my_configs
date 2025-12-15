@@ -1,30 +1,60 @@
-Bioshock: scb -- %command%
-Black Myth: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Dark Picture's: scb -- %command%
-Fallout: scb -- %command%
-Ghost of: PROTON_FSR4_UPGRADE=1 scb -- %command%
-God of War: scb -- %command%
-GoW: Rag: SteamDeck=1 PROTON_FSR4_UPGRADE=1 scb -- %command%
-Half Life: scb -- %command%
-HL: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Horizon: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Left For Dead: scb -- %command%
-Metro: scb -- %command%
-Persona: scb -- %command%
-Portal: scb -- %command%
-Spiderman: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Stalker: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Witcher 1: scb -- %command%
-Witcher 2: eval $( echo "scb -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
-Witcher 3: scb -- %command% --launcher-skip
-Yakuza: scb -- %command%
-BG3: scb -- %command%
-Clair: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Cyberpunk: PROTON_FSR4_UPGRADE=1 scb -- %command% --launcher-skip
-DS: scb -- %command%
-Indies: scb -- %command%
-Dead/REPO/VRCHAT: scb -- %command%
-Rivals: PROTON_FSR4_UPGRADE=1 scb -- %command%
-Rage Quit: scb -- %command%
-Halo: scb -- %command%
-Rachet: PROTON_FSR4_UPGRADE=1 scb -- %command%
+Bioshock: scb -O DP-2 -- %command%
+
+Black Myth: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Dark Picture's: scb -O DP-2 -- %command%
+
+Fallout: scb -O DP-2 -- %command%
+
+Ghost of: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+God of War: scb -O DP-2 -- %command%
+
+GoW: Rag: SteamDeck=1 PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Half Life: scb -O DP-2 -- %command%
+
+HL: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Horizon: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Left For Dead: scb -O DP-2 -- %command%
+
+Metro: scb -O DP-2 -- %command%
+
+Persona: scb -O DP-2 -- %command%
+
+Portal: scb -O DP-2 -- %command%
+
+Spiderman: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Stalker: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Witcher 1: scb -O DP-2 -- %command%
+
+Witcher 2: eval $( echo "scb -O DP-2 -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
+
+Witcher 3: scb -O DP-2 -- %command% --launcher-skip
+
+Yakuza: scb -O DP-2 -- %command%
+
+BG3: scb -O DP-2 -- %command%
+
+Clair: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Cyberpunk: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command% --launcher-skip
+
+DS: scb -O DP-2 -- %command%
+
+Indies: scb -O DP-2 -- %command%
+
+Dead/REPO/VRCHAT: scb -O DP-2 -- %command%
+
+Rivals: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
+Rage Quit: scb -O DP-2 -- %command%
+
+Halo: scb -O DP-2 -- %command%
+
+Rachet: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+
