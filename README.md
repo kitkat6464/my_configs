@@ -1,32 +1,42 @@
-ADDING THIS CAUSE INCASE I HIT MY HEAD AND FORGET
+ADDING THIS CAUSE INCASE I HIT MY HEAD AND FORGET HOW TO DO STUFF
 -------------------------------------------------------------------------------------------------------
 
-- Install Using Cachy Minimal
+- Install Using Cachy Minimal (No Desktop Option)
 
 -------------------------------------------------------------------------------------------------------
 
 - Install Dank Shell Using That Beautiful TTY:
 
-curl -fsSL https://install.danklinux.com | sh
+https://danklinux.com/docs/getting-started
 
-- Install GreetD Cause That's Hot AF:
+-------------------------------------------------------------------------------------------------------
 
-paru -S greetd-dms-greeter-git
+- Install Dank Greeter Cause That's Hot AF:
 
-- Configure GreetD:
+https://danklinux.com/docs/dankgreeter/installation
 
-dms greeter enable
+-------------------------------------------------------------------------------------------------------
 
-- Run After Install:
-
-
-
-Core: 
+- Run This After Install: Adds missing important stuff like a file manager, photo viewer, video player, music player, and missing deps for file picker consistency and gamescope support:
 
 curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall | sh
 
-Aur: 
+-------------------------------------------------------------------------------------------------------
+
+- Installs Lact and QT theming support from AUR:
 
 curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstallAur | sh
 
 -------------------------------------------------------------------------------------------------------
+
+- File Extension Support So So Files Can Open In Their Respective Apps:
+
+Download and Move mimeapps.list To .config
+
+https://github.com/kitkat6464/my_configs/blob/main/.config/mimeapps.list
+
+-------------------------------------------------------------------------------------------------------
+
+Follow The Guide Here to Gain Access To Secondary Guide:
+
+https://github.com/kitkat6464/my_configs/blob/main/SecondDriveInfo
