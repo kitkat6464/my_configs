@@ -25,6 +25,7 @@ PKGS=(
         'gnome-keyring'
         'wlr-randr'
         'cava'
+        'gpu-screen-recorder-gtk'
 )
 
 for PKG in "${PKGS[@]}"; do
