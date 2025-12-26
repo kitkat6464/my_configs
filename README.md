@@ -1,42 +1,66 @@
-ADDING THIS CAUSE INCASE I HIT MY HEAD AND FORGET HOW TO DO STUFF
--------------------------------------------------------------------------------------------------------
+<div align="center">
+ADDING THIS CAUSE INCASE I HIT MY HEAD, AND FORGET HOW TO DO STUFF
+</div>
 
-- Install Using Cachy Minimal (No Desktop Option)
+> [!TIP]
+> Install Using Cachy Minimal or Arch Minimal (No Desktop Option)
 
--------------------------------------------------------------------------------------------------------
+## Step 1: Install Dank Shell Using That Beautiful TTY:
 
-- Install Dank Shell Using That Beautiful TTY:
+[Dank Shell Installation Guide](https://danklinux.com/docs/getting-started)
 
-https://danklinux.com/docs/getting-started
+## Step 2: Install Dank Greeter Cause That's Hot AF:
 
--------------------------------------------------------------------------------------------------------
+[Dank Greeter Installation Guide](https://danklinux.com/docs/dankgreeter/installation)
 
-- Install Dank Greeter Cause That's Hot AF:
+## Step 3: Install Missing Stuff:
+(This Adds Missing Stuff Like File Manager, Photo Viewer, Video Player, Music Player, Missing Deps For Consistency, and Gamescope Tiling Support)
 
-https://danklinux.com/docs/dankgreeter/installation
-
--------------------------------------------------------------------------------------------------------
-
-- Run This After Install: Adds missing important stuff like a file manager, photo viewer, video player, music player, and missing deps for file picker consistency and gamescope support:
-
+```shell
 curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall | sh
+```
 
--------------------------------------------------------------------------------------------------------
+## Step 4: Install's Lact and QT Theming Support From The AUR:
 
-- Installs Lact and QT theming support from AUR:
-
+```shell
 curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstallAur | sh
+```
 
--------------------------------------------------------------------------------------------------------
+## Step 5: Setup File Extension Support:
 
-- File Extension Support So So Files Can Open In Their Respective Apps:
+```shell
+cd .config
+```
 
-Download and Move mimeapps.list To .config
+```shell
+wget https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/.config/mimeapps.list
+```
 
-https://github.com/kitkat6464/my_configs/blob/main/.config/mimeapps.list
+## Step 6: Setup Secondary Drive Access:
 
--------------------------------------------------------------------------------------------------------
+Make Mounting Folder For Secondary Drive.
 
-Follow The Guide Here to Gain Access To Secondary Guide:
+```shell
+sudo mkdir /mnt/games
+```
 
-https://github.com/kitkat6464/my_configs/blob/main/SecondDriveInfo
+> [!TIP]
+> Using This Command In The Terminal Will Find Your Drive UUID -> lsblk -f
+
+Add Drive To fstab File:
+
+```shell
+sudo nano /etc/fstab
+```
+
+> UUID=YOURDRIVEUUID /mnt/games     btrfs   defaults,noatime,compress=zstd,commit=120 0 0
+
+Mount Your New Drive:
+
+```shell
+sudo systemctl daemon-reload
+```
+
+```shell
+sudo mount -a
+```
