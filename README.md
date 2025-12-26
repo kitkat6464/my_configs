@@ -17,13 +17,13 @@ ADDING THIS CAUSE INCASE I HIT MY HEAD, AND FORGET HOW TO DO STUFF
 (This Adds Missing Stuff Like File Manager, Photo Viewer, Video Player, Music Player, Missing Deps For Consistency, and Gamescope Tiling Support)
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstall | sh
+curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/cachyos/AfterInstall | sh
 ```
 
 ## Step 4: Install's Lact and QT Theming Support From The AUR:
 
 ```shell
-curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/AfterInstallAur | sh
+curl -fsSL https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/cachyos/AfterInstallAur | sh
 ```
 
 ## Step 5: Setup File Extension Support:
@@ -33,7 +33,7 @@ cd .config
 ```
 
 ```shell
-wget https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/main/.config/mimeapps.list
+wget https://raw.githubusercontent.com/kitkat6464/my_configs/refs/heads/cachyos/.config/mimeapps.list
 ```
 
 ## Step 6: Setup Secondary Drive Access:
