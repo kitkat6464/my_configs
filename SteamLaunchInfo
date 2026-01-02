@@ -1,60 +1,27 @@
-Bioshock: scb -O DP-2 -- %command%
+<div align="center">
+Steam Game Launch Setting's
+</div>
 
-Black Myth: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+> [!TIP]
+> Use PC Game Wiki To Double Check FSR 4 Support, Also Use SANE Launch Parameters From ProtonDB.
 
-Dark Picture's: scb -O DP-2 -- %command%
+## Non FS4 Game's: 
 
-Fallout: scb -O DP-2 -- %command%
+```shell
+scb -O DP-2 -- %command%
+```
 
-Ghost of: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+## FSR4 Game's: (HL, Horizon, Spiderman, Stalker, Clair, Rivals, Rachet, Black Myth, Ghost of)
 
-God of War: scb -O DP-2 -- %command%
+```shell
+PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+```
 
+## Other Game's:
+
+```shell
 GoW: Rag: SteamDeck=1 PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Half Life: scb -O DP-2 -- %command%
-
-HL: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Horizon: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Left For Dead: scb -O DP-2 -- %command%
-
-Metro: scb -O DP-2 -- %command%
-
-Persona: scb -O DP-2 -- %command%
-
-Portal: scb -O DP-2 -- %command%
-
-Spiderman: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Stalker: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Witcher 1: scb -O DP-2 -- %command%
-
-Witcher 2: eval $( echo "scb -O DP-2 -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
-
-Witcher 3: scb -O DP-2 -- %command% --launcher-skip
-
-Yakuza: scb -O DP-2 -- %command%
-
-BG3: scb -O DP-2 -- %command%
-
-Clair: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
 Cyberpunk: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command% --launcher-skip
-
-DS: scb -O DP-2 -- %command%
-
-Indies: scb -O DP-2 -- %command%
-
-Dead/REPO/VRCHAT: scb -O DP-2 -- %command%
-
-Rivals: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
-Rage Quit: scb -O DP-2 -- %command%
-
-Halo: scb -O DP-2 -- %command%
-
-Rachet: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
-
+Witcher 2: eval $( echo "scb -O DP-2 -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
+Witcher 3: scb -O DP-2 -- %command% --launcher-skip
+```
