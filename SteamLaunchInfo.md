@@ -21,7 +21,16 @@ PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
 
 ```shell
 GoW: Rag: SteamDeck=1 PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command%
+```
+
+```shell
 Cyberpunk: PROTON_FSR4_UPGRADE=1 scb -O DP-2 -- %command% --launcher-skip
+```
+
+```shell
 Witcher 2: eval $( echo "scb -O DP-2 -- %command%" | sed "s/Launcher.exe'.*/bin\/witcher2.exe'/")
+```
+
+```shell
 Witcher 3: scb -O DP-2 -- %command% --launcher-skip
 ```
