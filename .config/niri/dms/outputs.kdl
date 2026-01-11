@@ -1,0 +1,6 @@
+output "DP-2" {
+    mode "1920x1080@180.003"
+    scale 1.0
+    position x=0 y=0
+    focus-at-startup
+}
