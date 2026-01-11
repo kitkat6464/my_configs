@@ -13,6 +13,11 @@ ADDING THIS CAUSE INCASE I HIT MY HEAD, AND FORGET HOW TO DO STUFF
 
 [Dank Greeter Installation Guide](https://danklinux.com/docs/dankgreeter/installation)
 
+REBOOT YOUR PC AFTER FOLLOWING THESE 2 STEPS.
+
+> [!TIP]
+> Install Gaming Packages in Cachy Hello app, the app will open after first login, if you are using CachyOS
+
 ## Step 3: Install Missing Stuff:
 (This Adds Missing Stuff Like File Manager, Photo Viewer, Video Player, Music Player, Missing Deps For Consistency, and Gamescope Tiling Support)
 
@@ -63,4 +68,23 @@ sudo systemctl daemon-reload
 
 ```shell
 sudo mount -a
+```
+
+## Step 7: Install ScopeBuddy: (This Is To Make Games Work Nicely)
+
+> [!TIP]
+> For more info about ScopeBuddy, visit https://docs.bazzite.gg/Advanced/scopebuddy/
+
+Using curl:
+```shell
+sudo curl -Lo /usr/local/bin/scopebuddy https://raw.githubusercontent.com/HikariKnight/ScopeBuddy/refs/tags/1.3.0/bin/scopebuddy
+```
+
+```shell
+sudo chmod +x /usr/local/bin/scopebuddy
+```
+
+Make scb symlink because we love short commands
+```shell
+sudo ln -s scopebuddy /usr/local/bin/scb
 ```
