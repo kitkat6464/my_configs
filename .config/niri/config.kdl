@@ -110,7 +110,7 @@ overview {
 // See the binds section below for more spawn examples.
 // This line starts waybar, a commonly used bar for Wayland compositors.
 
-# No longer needed for DMS 1.2
+// No longer needed for DMS 1.2
 // spawn-at-startup "bash" "-c" "wl-paste --watch cliphist store &"
 
 environment {
