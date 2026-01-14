@@ -511,8 +511,75 @@
   ],
   "systemMonitorVariants": [],
   "desktopWidgetPositions": {},
-  "desktopWidgetGridSettings": {},
-  "desktopWidgetInstances": [],
+  "desktopWidgetGridSettings": {
+    "DP-2": {
+      "enabled": true
+    }
+  },
+  "desktopWidgetInstances": [
+    {
+      "id": "dw_1768352183149_k7tai6wkw",
+      "widgetType": "desktopClock",
+      "name": "Desktop Clock",
+      "enabled": true,
+      "config": {
+        "style": "analog",
+        "transparency": 0.5,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showDate": true,
+        "showAnalogNumbers": true,
+        "showAnalogSeconds": true,
+        "displayPreferences": [
+          "all"
+        ]
+      },
+      "positions": {
+        "DP-2": {
+          "x": 40,
+          "y": 80
+        }
+      }
+    },
+    {
+      "id": "dw_1768352189549_gi12myt6r",
+      "widgetType": "systemMonitor",
+      "name": "System Monitor",
+      "enabled": true,
+      "config": {
+        "showHeader": true,
+        "transparency": 0.5,
+        "colorMode": "primary",
+        "customColor": "#ffffff",
+        "showCpu": true,
+        "showCpuGraph": true,
+        "showCpuTemp": true,
+        "showGpuTemp": true,
+        "gpuPciId": "1002:7550",
+        "showMemory": true,
+        "showMemoryGraph": true,
+        "showNetwork": true,
+        "showNetworkGraph": true,
+        "showDisk": true,
+        "showTopProcesses": true,
+        "topProcessCount": 3,
+        "topProcessSortBy": "memory",
+        "layoutMode": "grid",
+        "graphInterval": 60,
+        "displayPreferences": [
+          "all"
+        ]
+      },
+      "positions": {
+        "DP-2": {
+          "x": 1440,
+          "y": 80,
+          "width": 480,
+          "height": 360
+        }
+      }
+    }
+  ],
   "desktopWidgetGroups": [],
   "builtInPluginSettings": {
     "dms_settings_search": {
