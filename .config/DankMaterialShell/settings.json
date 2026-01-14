@@ -66,12 +66,7 @@
     {
       "id": "volumeSlider",
       "enabled": true,
-      "width": 50
-    },
-    {
-      "id": "brightnessSlider",
-      "enabled": true,
-      "width": 50
+      "width": 100
     },
     {
       "id": "wifi",
@@ -90,16 +85,6 @@
     },
     {
       "id": "audioInput",
-      "enabled": true,
-      "width": 50
-    },
-    {
-      "id": "nightMode",
-      "enabled": true,
-      "width": 50
-    },
-    {
-      "id": "darkMode",
       "enabled": true,
       "width": 50
     }
@@ -537,7 +522,9 @@
       "positions": {
         "DP-2": {
           "x": 40,
-          "y": 80
+          "y": 80,
+          "width": 200,
+          "height": 200
         }
       }
     },
